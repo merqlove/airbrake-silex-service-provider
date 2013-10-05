@@ -1,6 +1,6 @@
 # Airbrake Silex Extension
 
-Airbrake service provider for [Silex][1] and [php-airbrake][2].
+[Airbrake][1] service provider for [Silex][2] and [php-airbrake][3].
 
 ## Installation
 
@@ -32,14 +32,10 @@ $app->register(new AirbrakeServiceProvider(), array(
 ));
 ```
 
-## Credits
-
-* [Airbrake][3]
-
 ## License
 
 The Airbrake Silex Extension is licensed under the MIT license.
 
-[1]: http://silex-project.org
-[2]: https://airbrake.io
+[1]: https://airbrake.io
+[2]: http://silex-project.org
 [3]: https://github.com/dbtlr/php-airbrake
