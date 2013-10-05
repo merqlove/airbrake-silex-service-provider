@@ -4,6 +4,8 @@ Airbrake service provider for [Silex][1] and [php-airbrake][2].
 
 ## Installation
 
+composer.json:
+
 ```json
 {
     "require": {
