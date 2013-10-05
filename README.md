@@ -9,6 +9,7 @@ composer.json:
 ```json
 {
     "require": {
+      "dbtlr/php-airbrake"    : "dev-master",
       "merqlove/airbrake-silex-service-provider"    : "dev-master"
     }
 }
