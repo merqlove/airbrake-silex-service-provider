@@ -7,7 +7,7 @@ Airbrake service provider for [Silex][1] and [php-airbrake][2].
 ```json
 {
     "require": {
-      "merqlove/airbrake-service-provider"    : "dev-master"
+      "merqlove/airbrake-silex-service-provider"    : "dev-master"
     }
 }
 ```
