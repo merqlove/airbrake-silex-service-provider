@@ -33,6 +33,20 @@ $app->register(new AirbrakeServiceProvider(), array(
 ));
 ```
 
+## Using
+
+```php
+// Send just an error message
+$app['airbrake']->notifyOnError('My error message');
+
+// Send an exception that may have been generated or caught.
+try {
+    throw new Exception('This is my exception');
+} catch (Exception $exception) {
+    $app['airbrake']->notifyOnException($exception);
+}
+```
+
 ## License
 
 The Airbrake Silex Extension is licensed under the MIT license.
