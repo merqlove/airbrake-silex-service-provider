@@ -52,5 +52,5 @@ try {
 The Airbrake Silex Extension is licensed under the MIT license.
 
 [1]: https://airbrake.io
-[2]: http://silex-project.org
+[2]: http://silex.sensiolabs.org
 [3]: https://github.com/dbtlr/php-airbrake
